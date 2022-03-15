@@ -1,0 +1,8 @@
+#Main
+
+jugar=str(input("¿Quieres jugar BattleShip? (responde s si quieres y n si no)\n"))
+if jugar == "s":
+    print("Exíste un Area maritima en forma de matris de 3x3, en donde se ocultan 2 naves enemigas, intenta destruirlas lanzandoles bombas.\n")
+    while np.sum(terreno)>0:
+        bomba_fila=int(input("Si las filas van de arriba a abajo y comienzan desde la fila 0 y terminan en la 2. \n ¿En que fila crees que se encuentra alguna de las naves enemigas?\n"))
+        bomba_col=int(input("Si las columnas van de izquierda a derecha y comienzan desde la columna 0 y terminan en la 2. \n ¿En que columna crees que se encuentra alguna de las naves enemigas?\n"))
